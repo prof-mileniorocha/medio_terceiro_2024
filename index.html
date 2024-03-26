@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplos de Manipulação do DOM com JavaScript e Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1>Exemplos de Manipulação do DOM com JavaScript e Bootstrap</h1>
+
+    <!-- Exemplo 1: Alterar Estilos -->
+    <div class="mb-4">
+      <h3>Exemplo 1: Alterar Estilos</h3>
+      <button class="btn btn-primary" id="estiloBtn">Alterar Cor</button>
+      <p id="paragrafoEstilo">Este parágrafo pode mudar de cor ao clicar no botão acima.</p>
+    </div>
+
+    <!-- Exemplo 2: Manipular Classes -->
+    <div class="mb-4">
+      <h3>Exemplo 2: Manipular Classes</h3>
+      <button class="btn btn-success" id="adicionarClasseBtn">Adicionar Classe</button>
+      <button class="btn btn-danger" id="removerClasseBtn">Remover Classe</button>
+      <p id="elementoClasse" class="text-muted">Este texto pode ter classes adicionadas ou removidas.</p>
+    </div>
+
+    <!-- Exemplo 3: Evento de Mouse -->
+    <div class="mb-4">
+      <h3>Exemplo 3: Evento de Mouse</h3>
+      <p id="eventoMouse">Passe o mouse sobre este texto.</p>
+    </div>
+
+    <!-- Exemplo 4: Criar e Excluir Elementos -->
+    <div class="mb-4">
+      <h3>Exemplo 4: Criar e Excluir Elementos</h3>
+      <button class="btn btn-warning" id="criarElementoBtn">Criar Elemento</button>
+      <button class="btn btn-danger" id="excluirElementoBtn">Excluir Elemento</button>
+      <div id="containerElementos">
+        <!-- Elementos serão adicionados e removidos aqui -->
+      </div>
+    </div>
+  </div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
